@@ -1,0 +1,27 @@
+{
+  "name": "eight-ball",
+  "version": "1.0.0",
+  "description": "A multiplayer 8 ball pool game made in [Node.js](https://nodejs.org/) using [Express.js](https://expressjs.com/) and [Socket.IO](https://socket.io/).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chalk": "^2.4.2",
+    "connect-flash": "^0.1.1",
+    "connect-sqlite3": "^0.9.11",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.0",
+    "morgan": "^1.9.1",
+    "socket.io": "^2.3.0",
+    "sqlite3": "^4.1.1",
+    "validator": "^11.1.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
